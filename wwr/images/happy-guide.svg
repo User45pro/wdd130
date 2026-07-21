@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Happy rafting guide</title>
+  <desc id="desc">A smiling guide wearing a helmet and life jacket.</desc>
+  <rect width="240" height="240" rx="18" fill="#bfe8f4"/>
+  <path d="M0 190c44-48 196-48 240 0v50H0z" fill="#0b5d7a"/>
+  <circle cx="120" cy="102" r="55" fill="#d99b73"/>
+  <path d="M65 97c0-53 110-64 112 0-25-12-82-12-112 0z" fill="#f2b134"/>
+  <path d="M76 80c28-16 64-17 91-1" fill="none" stroke="#17324d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="99" cy="104" r="5" fill="#17324d"/>
+  <circle cx="141" cy="104" r="5" fill="#17324d"/>
+  <path d="M98 132c14 15 31 15 45 0" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M74 176h92l21 64H53z" fill="#f25f3a"/>
+  <path d="M120 177v63M82 190l76 34M158 190l-76 34" stroke="#ffd36a" stroke-width="8"/>
+</svg>
