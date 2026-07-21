@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" role="img" aria-labelledby="title desc">
+  <title id="title">Michoacan River Adventures logo</title>
+  <desc id="desc">A mountain, sun, and river with the company name.</desc>
+  <rect width="300" height="120" rx="16" fill="#eef7f9"/>
+  <circle cx="62" cy="35" r="17" fill="#f2b134"/>
+  <path d="M18 71 63 25l27 31 23-22 43 47H18z" fill="#0b5d7a"/>
+  <path d="M16 78c27-14 48 14 75 0s48 14 75 0" fill="none" stroke="#2aa7c8" stroke-width="8" stroke-linecap="round"/>
+  <text x="174" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#17324d">MICHOACAN</text>
+  <text x="174" y="74" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6" fill="#0b5d7a">RIVER ADVENTURES</text>
+  <text x="174" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#17324d">COURAGE • TEAMWORK • JOY</text>
+</svg>
