@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Michoacan River Adventures</title>
+    <meta
+      name="description"
+      content="Contact Michoacan River Adventures, meet our river team, and send us questions about rafting trips, reservations, or our website."
+    >
+    <meta name="author" content="William Michel Borja Ornelas">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="Michoacan River Adventures logo">
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Contact Us</h1>
+
+      <section class="contact-intro">
+        <div class="company-details">
+          <h2>Plan Your River Adventure</h2>
+          <p>
+            Our team is ready to help you choose a safe and memorable rafting
+            experience in Michoacan.
+          </p>
+          <address>
+            <strong>Michoacan River Adventures</strong><br>
+            Avenida Rio Grande 245<br>
+            Morelia, Michoacan 58000<br>
+            Mexico
+          </address>
+          <p><strong>Phone:</strong> +52 443 555 0187</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:adventures@michoacanriver.com">
+              adventures@michoacanriver.com
+            </a>
+          </p>
+        </div>
+
+        <iframe
+          class="contact-map"
+          src="https://www.google.com/maps?q=Morelia%2C%20Michoacan%2C%20Mexico&amp;output=embed"
+          title="Map showing Morelia, Michoacan, Mexico"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <section class="employee-section">
+        <h2>Meet Our River Team</h2>
+        <div class="employee-grid">
+          <figure>
+            <img src="images/profile.jpg" alt="William, lead river guide">
+            <figcaption>
+              <strong>William Ornelas</strong>
+              Lead River Guide
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/rafting59_600.jpg"
+              alt="River operations team preparing for an expedition"
+            >
+            <figcaption>
+              <strong>Sofia Ramirez</strong>
+              River Operations Manager
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/rafting53_600.jpg"
+              alt="Rafting guide navigating white water with guests"
+            >
+            <figcaption>
+              <strong>Daniel Torres</strong>
+              Guest Experience Coordinator
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <h2>Send Us a Message</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-field">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <fieldset>
+            <legend>Purpose of Your Message</legend>
+            <label>
+              <input
+                type="radio"
+                name="purpose"
+                value="general-inquiry"
+                required
+              >
+              General Inquiry
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="purpose"
+                value="reservation-question"
+              >
+              Reservation Question
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="purpose"
+                value="website-suggestion"
+              >
+              Website Suggestion
+            </label>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <label class="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            Please subscribe me to the monthly newsletter
+          </label>
+
+          <button type="submit">Send My Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Michoacan River Adventures | William Michel Borja Ornelas</p>
+      <nav class="socialmedia" aria-label="Social media links">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/instagram.svg" alt="Instagram">
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
