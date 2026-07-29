@@ -352,11 +352,15 @@ footer p {
   border-radius: 4px;
 }
 
-.contact-form fieldset label,
+.radio-option,
 .newsletter {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.contact-form fieldset label,
+.newsletter {
   font-weight: 400;
 }
 

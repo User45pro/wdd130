@@ -104,31 +104,34 @@
 
           <fieldset>
             <legend>Purpose of Your Message</legend>
-            <label>
+            <div class="radio-option">
               <input
                 type="radio"
+                id="general-inquiry"
                 name="purpose"
                 value="general-inquiry"
                 required
               >
-              General Inquiry
-            </label>
-            <label>
+              <label for="general-inquiry">General Inquiry</label>
+            </div>
+            <div class="radio-option">
               <input
                 type="radio"
+                id="reservation-question"
                 name="purpose"
                 value="reservation-question"
               >
-              Reservation Question
-            </label>
-            <label>
+              <label for="reservation-question">Reservation Question</label>
+            </div>
+            <div class="radio-option">
               <input
                 type="radio"
+                id="website-suggestion"
                 name="purpose"
                 value="website-suggestion"
               >
-              Website Suggestion
-            </label>
+              <label for="website-suggestion">Website Suggestion</label>
+            </div>
           </fieldset>
 
           <div class="form-field">
